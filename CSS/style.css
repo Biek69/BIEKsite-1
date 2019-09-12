@@ -4,11 +4,11 @@ body{
 }
 h1{
     font-size: 100px;
-    color: #EDD6A8;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 p{
     padding: 140px;
     font-size: 40px;
-    color: #DDCCAA;
+    color: rgb(255, 255, 255);
 }
