@@ -1,3 +1,14 @@
 body{
-    background-color: rgb(160, 112, 24);
+    background-image: url("https://www.wykop.pl/cdn/c3201142/comment_w0DxUamhu5uQgZf9p09SPwzAxm4UVm26.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    color: #EDD6A8;
+    text-align: center;
+}
+p{
+    padding: 140px;
+    font-size: 40px;
+    color: #DDCCAA;
 }
