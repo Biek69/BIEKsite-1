@@ -13,6 +13,14 @@ p{
     color: rgb(255, 255, 255);
 }
 a{
-    color: lightblue;
+    color: rgb(153, 216, 236);
     text-decoration: none;
+}
+img {
+  float: left;
+}
+h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
