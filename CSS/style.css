@@ -1,26 +1,52 @@
-body{
-    background-image: url("https://i.redd.it/wicyhcpc1xyy.jpg");
-    background-size: cover;
+* {
+    margin: 0px;
+    padding: 0pc;
 }
-h1{
-    font-size: 100px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+
+html, body {
+margin: 0px;
+height: 100%;
 }
-p{
-    padding: 140px;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
+#boven{
+    height: 15%;
+    width: 80%;
+    background-color: red;
+    margin: 0%;
 }
-a{
-    color: rgb(153, 216, 236);
+#onder{
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}
+#container{
+    height: 80%;
+    width: 80%;
+    margin:0%;
+    display: flex;
+}
+#rechts{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(128, 105, 0);
+}
+#midden{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(0, 51, 128);
+}
+ul a {
+    background-color:grey;
+    display:block;
     text-decoration: none;
-}
-img {
-  float: left;
-}
-h2{
-    font-size: 60px;
-    color: rgb(255, 255, 255);
     text-align: center;
+    color: blanchedalmond;
+    margin-top: 4px;
+    padding: 10px;
+}
+ul a:hover{
+    background-color: black;
+}
+#menu{
+    width: 40%;
+
 }
