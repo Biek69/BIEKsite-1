@@ -9,30 +9,35 @@ height: 100%;
 }
 #boven{
     height: 15%;
-    width: 80%;
-    background-color: rgb(255, 0, 0);
+    width: 100%;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjKUhZfhy5Ofm9KlSpdNB1YZt9Tt3Sedm9jYYhVbAMd7HavHP");
+    background-size: 100%;
     margin: 0%;
+    border: solid 2px;
 }
 #onder{
     height: 100%;
     width: 30%;
     background-color:lightskyblue;
+    border: solid 1px;
 }
 #container{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin:0%;
     display: flex;
 }
 #rechts{
     height: 100%;
     width: 30%;
-    background-color:lightseagreen;
+    background-color:lightskyblue;
+    border: solid 1px;
 }
 #midden{
     height: 100%;
     width: 40%;
-    background-color:blue;
+    background-color:lightseagreen;
+    border: solid 1px;
 }
 ul a {
     background-color:grey;
@@ -42,9 +47,10 @@ ul a {
     color: blanchedalmond;
     margin-top: 4px;
     padding: 10px;
+    border: solid 3px black;
 }
 ul a:hover{
-    background-color: black;
+    background-color: rgb(60,60,60);
 }
 #menu{
     width: 40%;
@@ -59,6 +65,7 @@ ul a:hover{
     margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
+    border: solid 3px;
 }
 h1{
     text-align: center;
@@ -68,4 +75,10 @@ h1{
 .tekstvak{
     font-size: 40px;
     color: blanchedalmond;
+}
+.auto{
+    width: 90%;
+    margin:5%;
+    margin-top: 10px;
+    border: solid 3px;
 }
