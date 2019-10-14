@@ -17,9 +17,11 @@ height: 100%;
 }
 #onder{
     height: 100%;
-    width: 30%;
+    width: 20%;
     background-color:lightseagreen;
-    border: solid 1px;
+    border: solid 3px;
+    background-image:url("../images/houtachtergrond.jpg");
+    background-size: 100%;
 }
 #container{
     height: 100%;
@@ -30,14 +32,16 @@ height: 100%;
 #rechts{
     height: 100%;
     width: 30%;
-    background-color:lightseagreen;
-    border: solid 1px;
+    background-image:url("../images/houtachtergrond.jpg");
+    background-size: 100%;
+    border: solid 3px;
 }
 #midden{
     height: 100%;
-    width: 40%;
-    background-color:lightskyblue;
-    border: solid 1px;
+    width: 50%;
+    border: solid 3px;
+    background-image:url("../images/grill.jpg");
+    background-size: 100%;
 }
 ul a {
     background-color:grey;
