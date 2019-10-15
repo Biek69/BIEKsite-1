@@ -10,8 +10,9 @@ height: 100%;
 #boven{
     height: 15%;
     width: 100%;
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjKUhZfhy5Ofm9KlSpdNB1YZt9Tt3Sedm9jYYhVbAMd7HavHP");
+    background-image:url("../images/bbq.jpg");
     background-size: 100%;
+    background-position-y: 60%;
     margin: 0%;
     border: solid 2px;
 }
@@ -40,7 +41,7 @@ height: 100%;
     height: 100%;
     width: 50%;
     border: solid 3px;
-    background-image:url("../images/grill.jpg");
+    background-image:url("../images/steniger.jpg");
     background-size: 100%;
 }
 ul a {
@@ -74,7 +75,9 @@ ul a:hover{
 h1{
     text-align: center;
     font-size: 90px;
-    color: blanchedalmond;
+    color: #5c0e0e;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: "impact";
 }
 .tekstvak{
     font-size: 40px;
